@@ -7,7 +7,7 @@ def scatterplot_city(c,N,numblocks,positions,colorlist=None,sizes=30,filename=No
         colorlist=np.array([[1,0,0],[0,1,0],[0,0,1],\
                             [1,0,1],[1,1,0],[0,1,1],[0,0,0]])
     print(numblocks)
-    fig=plt.figure(figsize=(15,15), dpi= 80, facecolor='w', edgecolor='k')
+    fig=plt.figure(figsize=(10,10), dpi= 80, facecolor='w', edgecolor='k')
     for i in range(0,numblocks):
         block_colors[i,:,0:3]=colorlist[i%7,:]
         block_colors[i,:,3]=colors[:,i]
@@ -39,7 +39,7 @@ def block_omegas(r,numblocks,omega_max=None,filename=None):
                       [(row-1)%7])
     
     if not(filename is None):
-        plt.savefig(filename+”block_omegas.png")
+        plt.savefig(filename+"block_omegas.png")
 def save_model(c,r,N,numiter,ll,numblocks,positions,cityname):
     numblocks=int(numblocks)
     f1=open(cityname+'Blocks', 'w+')

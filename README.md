@@ -1,4 +1,4 @@
-**Note**: 
+# Description: 
 * This folder holds extra exploratory analysis for the paper  https://arxiv.org/abs/1908.09440
 * Official supplementary code and data for paper can be found https://github.com/jcarlen/tdsbm_supplementary_material
 

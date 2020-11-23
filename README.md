@@ -2,6 +2,12 @@
 We develop python code for a stochastic block model that takes detects time connectivity curves. It can detect work and home commute but it can also detect many different interesting patterns:
 For example here is Los Angeles with 10 blocks. 
 ![](LATiled.png)
+with broad commute patterns 
+![](LABlock.png).
+
+Here is an example from Manhattan
+![](NYTiled.png)
+![](ManhattanBlock.png)
 # Description: 
 * This folder holds extra exploratory analysis for the paper  https://arxiv.org/abs/1908.09440
 * Official supplementary code and data for paper can be found https://github.com/jcarlen/tdsbm_supplementary_material
